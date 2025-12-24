@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخطة التسويقية 2026 | جمعية الإحسان</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bootstrap-4/bootstrap-4.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #D35400;
+            --secondary-color: #2C3E50;
+            --light-bg: #FDF2E9;
+            --success-color: #27AE60;
+        }
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8f9fa;
+            color: var(--secondary-color);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #1a252f 100%);
+            color: white;
+            padding: 80px 0 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: #f8f9fa;
+            transform: skewY(2deg);
+        }
+
+        .quote-box {
+            background: rgba(255,255,255,0.1);
+            border-right: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* Cards & Stats */
+        .stat-card {
+            background: white;
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .growth-badge {
+            background: #e8f5e9;
+            color: var(--success-color);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        /* Budget Section */
+        .budget-section {
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 20px;
+            padding: 40px;
+        }
+
+        .roi-highlight {
+            font-size: 2.5rem;
+            color: #F1C40F;
+            font-weight: bold;
+            font-family: 'Cairo';
+        }
+
+        /* Channels */
+        .channel-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--light-bg);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            color: var(--primary-color);
+            font-size: 2rem;
+            transition: all 0.3s;
+        }
+
+        .stat-card:hover .channel-icon {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        /* Table Styling */
+        .custom-table thead th {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px;
+        }
+        
+        .custom-table tbody td {
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        .table-highlight {
+            background-color: #fff3cd !important;
+            font-weight: bold;
+        }
+
+        .btn-cta {
+            background: var(--primary-color);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            border: none;
+            box-shadow: 0 4px 15px rgba(211, 84, 0, 0.4);
+            transition: all 0.3s;
+        }
+
+        .btn-cta:hover {
+            background: #ba4a00;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero text-center">
+        <div class="container">
+            <span class="badge bg-warning text-dark mb-3 px-3 py-2 rounded-pill">مسودة التكلفة التسويقية 2026</span>
+            <h1 class="display-4 mb-4">استثمارك الرابح في إيصال الخير</h1>
+            <p class="lead text-white-50 mx-auto" style="max-width: 700px;">
+                كفالة تكلفة التسويق هي استثمارٌ في إيصال الخير. الريال المُستثمر في الوصول يبني الجسر بين الباذل والمحتاج، ويعود بأضعاف أثرٍ ونفع.
+            </p>
+            
+            <div class="d-flex justify-content-center mt-4">
+                <div class="quote-box text-start">
+                    <i class="fa-solid fa-quote-right ms-2 text-warning"></i>
+                    <span class="fs-5">مَنْ دَعَا إِلَى هُدًى، كَانَ لَهُ مِنَ الْأَجْرِ مِثْلُ أُجُورِ مَنْ تَبِعَهُ</span>
+                    <i class="fa-solid fa-quote-left me-2 text-warning"></i>
+                    <div class="text-end mt-2 text-warning small">- حديث شريف</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        
+        <section class="mb-5">
+            <div class="text-center mb-5">
+                <h2 class="text-primary fw-bold">📊 قراءة في واقع الأرقام</h2>
+                <p class="text-muted">مقارنة الأداء والنمو بين عامي 2024 و 2025</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="stat-card p-4 d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="mb-4">نمو إجمالي التبرعات</h5>
+                        <div style="width: 100%; height: 250px;">
+                            <canvas id="growthChart"></canvas>
+                        </div>
+                        <div class="mt-3">
+                            <span class="text-muted small">نسبة التطور العامة</span>
+                            <h3 class="text-success fw-bold">+ 41.3% <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm overflow-hidden rounded-4">
+                        <div class="table-responsive">
+                            <table class="table custom-table table-striped mb-0 text-center">
+                                <thead>
+                                    <tr>
+                                        <th>المؤشر</th>
+                                        <th>2024</th>
+                                        <th>2025</th>
+                                        <th>التطور</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="fw-bold text-start">إجمالي التبرعات</td>
+                                        <td>10.0M</td>
+                                        <td class="fw-bold">14.1M</td>
+                                        <td><span class="growth-badge">+41.3%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold text-start">عدد عمليات التبرع</td>
+                                        <td>80,480</td>
+                                        <td>118,202</td>
+                                        <td><span class="growth-badge">+46.8%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold text-start">إجمالي المتبرعين</td>
+                                        <td>48,716</td>
+                                        <td>55,696</td>
+                                        <td><span class="growth-badge">+14.3%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold text-start">المتبرعون السابقون (الولاء)</td>
+                                        <td>15,373</td>
+                                        <td>21,034</td>
+                                        <td><span class="growth-badge">+36.8%</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold text-start">زوار الموقع</td>
+                                        <td>430K</td>
+                                        <td>611K</td>
+                                        <td><span class="growth-badge">+41.9%</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5 text-muted opacity-25">
+
+        <section class="mb-5">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-8">
+                    <h2 class="fw-bold text-secondary">🎯 مستهدفات عام 2026</h2>
+                    <p class="text-muted">بناءً على المسار الصاعد للنمو، نستهدف تحقيق القفزات التالية:</p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="badge bg-primary fs-6 p-3 rounded-pill">عام النمو المستدام</div>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center border-bottom border-5 border-primary">
+                        <i class="fa-solid fa-bullseye fa-2x text-muted mb-3"></i>
+                        <h6 class="text-muted">إجمالي التبرعات المتوقعة</h6>
+                        <h3 class="fw-bold text-primary">15,050,000</h3>
+                        <small>ريال سعودي</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <i class="fa-solid fa-users-line fa-2x text-info mb-3"></i>
+                        <h6 class="text-muted">إجمالي المتبرعين</h6>
+                        <h4 class="fw-bold">65,000</h4>
+                        <small class="text-success">منهم 39,000 جديد</small>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <i class="fa-solid fa-hand-holding-heart fa-2x text-danger mb-3"></i>
+                        <h6 class="text-muted">عدد التبرعات</h6>
+                        <h4 class="fw-bold">150,000</h4>
+                        <small>عملية تبرع</small>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <i class="fa-solid fa-globe fa-2x text-warning mb-3"></i>
+                        <h6 class="text-muted">زوار الموقع</h6>
+                        <h4 class="fw-bold">800,000</h4>
+                        <small>زائر</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <div class="budget-section shadow-lg">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <h3 class="fw-bold mb-3"><i class="fa-solid fa-wallet me-2"></i> ميزانية التسويق المقترحة</h3>
+                        <p class="fs-5 opacity-75">الميزانية تمثل نسبة <span class="fw-bold text-warning">8.42%</span> فقط من إجمالي التبرعات المتوقعة.</p>
+                        <ul class="list-unstyled mt-4">
+                            <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> إجمالي التكلفة: <strong>1,267,000 ريال</strong></li>
+                            <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> العائد المتوقع (ROI): <strong>1 : 11.87</strong></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 text-center border-start border-light border-opacity-25">
+                        <i class="fa-solid fa-chart-pie fa-4x mb-3 text-warning"></i>
+                        <h5 class="text-uppercase letter-spacing-2">الاستثمار الأمثل</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5" id="detailed-plan">
+            <div class="card border-0 shadow-lg overflow-hidden">
+                <div class="card-header bg-white p-4 border-bottom">
+                    <h3 class="text-primary fw-bold mb-0"><i class="fa-regular fa-calendar-alt me-2"></i> جدول خطة تسويق 2026</h3>
+                    <p class="text-muted mb-0 mt-2">تفاصيل الميزانية المقترحة والإيراد المتوقع شهرياً</p>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-bordered mb-0 text-center align-middle">
+                        <thead class="bg-light text-secondary">
+                            <tr>
+                                <th class="py-3">الشهر</th>
+                                <th class="py-3">الموافق في الهجري</th>
+                                <th class="py-3 bg-light text-primary">الميزانية المقترحة</th>
+                                <th class="py-3 bg-light text-success">الإيراد المتوقع</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>يناير</td>
+                                <td>12 رجب - 12 شعبان</td>
+                                <td>16,033</td>
+                                <td>160,333</td>
+                            </tr>
+                            <tr>
+                                <td>فبراير</td>
+                                <td>13 شعبان - 11 رمضان</td>
+                                <td>60,500</td>
+                                <td>605,000</td>
+                            </tr>
+                            <tr class="table-highlight">
+                                <td>مارس</td>
+                                <td>12 رمضان - 12 شوال</td>
+                                <td class="text-primary fw-bold">100,000</td>
+                                <td class="text-success fw-bold">1,000,000</td>
+                            </tr>
+                            <tr>
+                                <td>أبريل</td>
+                                <td>13 شوال - 13 ذو القعدة</td>
+                                <td>13,200</td>
+                                <td>132,000</td>
+                            </tr>
+                            <tr class="table-highlight">
+                                <td>مايو</td>
+                                <td>14 ذو القعدة - 14 ذو الحجة</td>
+                                <td class="text-primary fw-bold">60,025</td>
+                                <td class="text-success fw-bold">600,250</td>
+                            </tr>
+                            <tr>
+                                <td>يونيو</td>
+                                <td>15 ذو الحجة - 15 محرم</td>
+                                <td>14,833</td>
+                                <td>148,333</td>
+                            </tr>
+                            <tr>
+                                <td>يوليو</td>
+                                <td>16 محرم - 17 صفر</td>
+                                <td>14,367</td>
+                                <td>143,667</td>
+                            </tr>
+                            <tr>
+                                <td>أغسطس</td>
+                                <td>18 صفر - 18 ربيع الأول</td>
+                                <td>14,033</td>
+                                <td>140,333</td>
+                            </tr>
+                            <tr>
+                                <td>سبتمبر</td>
+                                <td>19 ربيع الأول - 19 ربيع الثاني</td>
+                                <td>13,183</td>
+                                <td>131,833</td>
+                            </tr>
+                            <tr>
+                                <td>أكتوبر</td>
+                                <td>20 ربيع الثاني - 20 جماد الأول</td>
+                                <td>14,367</td>
+                                <td>143,667</td>
+                            </tr>
+                            <tr>
+                                <td>نوفمبر</td>
+                                <td>21 جماد الأول - 20 جماد الآخر</td>
+                                <td>13,767</td>
+                                <td>137,667</td>
+                            </tr>
+                            <tr>
+                                <td>ديسمبر</td>
+                                <td>21 جماد الآخر - 22 رجب</td>
+                                <td>14,017</td>
+                                <td>140,167</td>
+                            </tr>
+                            <tr class="table-secondary fw-bold">
+                                <td>زكاة الفطر</td>
+                                <td>فبراير - مارس</td>
+                                <td>110,500</td>
+                                <td>1,105,000</td>
+                            </tr>
+                            <tr class="table-secondary fw-bold">
+                                <td>الأضاحي</td>
+                                <td>مايو</td>
+                                <td>25,000</td>
+                                <td>250,000</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="table-dark">
+                            <tr>
+                                <td colspan="2" class="fw-bold">المجموع الكلي</td>
+                                <td class="fw-bold text-warning">483,825</td>
+                                <td class="fw-bold text-success">4,838,250</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <h3 class="text-center mb-5 fw-bold">📢 الوسائل التسويقية المعتمدة</h3>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <div class="channel-icon text-success"><i class="fa-brands fa-whatsapp"></i></div>
+                        <h5>إعادة تكرار التبرعات</h5>
+                        <p class="text-muted small mb-0">واتساب والبريد الإلكتروني لتعزيز ولاء المتبرعين السابقين.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <div class="channel-icon text-primary"><i class="fa-brands fa-google"></i></div>
+                        <h5>محركات البحث</h5>
+                        <p class="text-muted small mb-0">إعلانات Google Ads للوصول المباشر للباحثين عن الخير.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <div class="channel-icon text-dark"><i class="fa-brands fa-tiktok"></i></div>
+                        <h5>المنصات التفاعلية</h5>
+                        <p class="text-muted small mb-0">تيك توك، سناب، انستقرام. جذب شرائح جديدة بالمحتوى المرئي.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="stat-card p-4 text-center">
+                        <div class="channel-icon text-info"><i class="fa-solid fa-robot"></i></div>
+                        <h5>الذكاء الاصطناعي</h5>
+                        <p class="text-muted small mb-0">تحليل البيانات لرفع كفاءة الاستهداف وتقليل الهدر.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="mb-4 fw-bold">"الدال على الخير كفاعله"</h2>
+                <p class="lead text-muted mb-4">
+                    التبرع بتكلفة التسويق ليس مجرد تمويل، بل هو مساهمة حقيقية في جلب التبرعات. 
+                    كل ريال يُستثمر في هذه الخطة سيعود بفائدة تعم على الكثير من المحتاجين.
+                </p>
+                <button onclick="showDonationModal()" class="btn-cta">
+                    <i class="fa-solid fa-hand-holding-dollar ms-2"></i> اكفل خطة التسويق
+                </button>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-md-start mb-3 mb-md-0">
+                    <h5 class="mb-0">جمعية الإحسان</h5>
+                    <small>للخدمات الاجتماعية</small>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <p class="mb-0 opacity-75">تقرير عام 2025</p>
+                    <i class="fa-solid fa-qrcode fa-2x mt-2"></i>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <div class="d-flex justify-content-center justify-content-md-end gap-3">
+                        <a href="#" class="text-white"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fa-solid fa-globe fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        // SweetAlert
+        function showDonationModal() {
+            Swal.fire({
+                title: 'جزاكم الله خيراً',
+                text: 'شكراً لمبادرتكم بدعم ميزانية التسويق. سيتم تحويلكم لبوابة التبرع.',
+                icon: 'success',
+                confirmButtonText: 'متابعة',
+                confirmButtonColor: '#D35400'
+            });
+        }
+
+        // Chart Configuration
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('growthChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['2024 (10M)', 'زيادة 2025 (4.1M)'],
+                    datasets: [{
+                        data: [10001727, 4135921],
+                        backgroundColor: ['#BDC3C7', '#D35400'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
